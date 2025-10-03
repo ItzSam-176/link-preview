@@ -1,0 +1,22 @@
+{
+  "name": "link-preview-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "express": "^5.1.0",
+    "got": "^11.8.6",
+    "playwright": "^1.55.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
